@@ -1,0 +1,20 @@
+/* line 1, ../sass/_partials/_typography.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 5, ../sass/_partials/_typography.scss */
+h1 {
+  font-size: 3rem;
+}
+
+/* line 9, ../sass/_partials/_typography.scss */
+p {
+  font-size: 1.2rem;
+}
+
+/* line 1, ../sass/_partials/_layout.scss */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Order</title>
+
+    <style>
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block1 {
+            order: 2;
+        }
+
+        .block2 {
+            order: 1;
+        }
+
+        .block3 {
+            order: 3;
+        }
+
+        @media only screen and (min-width: 768px){
+            .block1 {
+                order: 1;
+            }
+
+            .block2 {
+                order: 2;
+            }
+
+            .block3 {
+                order: 3;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="block block1">
+            <p>This is the first block</p>
+        </div>
+        <div class="block block2">
+            <p>This is the second block</p>
+        </div>
+        <div class="block block3">
+            <p>This is the third block</p>
+        </div>
+    </div>
+</body>
+</html>

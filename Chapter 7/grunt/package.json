@@ -1,0 +1,15 @@
+{
+  "name": "gruntproject",
+  "version": "1.0.0",
+  "description": "First Grunt Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "~0.7.2"
+  }
+}

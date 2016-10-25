@@ -1,0 +1,12 @@
+/* line 1, ../sass/screen.scss */
+.class-name {
+  background: #000;
+}
+/* line 3, ../sass/screen.scss */
+.class-name p {
+  color: #fff;
+}
+/* line 6, ../sass/screen.scss */
+.class-name p span {
+  color: #eee;
+}

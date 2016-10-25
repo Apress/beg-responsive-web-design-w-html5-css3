@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SVG fallback</title>
+        <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+    </head>
+    <body>
+        <img class="svg" src="logo.svg" data-png="logo.png" width="50" height="50" alt="Logo" />
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+            if(!Modernizr.svg){
+                $('.svg').each(function(){
+                    var $this = $(this);
+                    $this.attr('src', $this.attr('data-png'));
+                });
+            }
+        </script>
+    </body>
+</html>

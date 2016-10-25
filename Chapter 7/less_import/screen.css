@@ -1,0 +1,13 @@
+html {
+  font-size: 100%;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.2rem;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gradient panel example</title>
+        <style>
+
+            .panel{
+                width: 220px;
+                height: 180px;
+                padding: 20px;
+                background: #77b7ef; /* Old browsers */
+                background: -moz-radial-gradient(center, ellipse cover,  #77b7ef 0%, #000000 100%); /* FF3.6+ */
+                background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#77b7ef), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+                background: -webkit-radial-gradient(center, ellipse cover,  #77b7ef 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-radial-gradient(center, ellipse cover,  #77b7ef 0%,#000000 100%); /* Opera 12+ */
+                background: -ms-radial-gradient(center, ellipse cover,  #77b7ef 0%,#000000 100%); /* IE10+ */
+                background: radial-gradient(ellipse at center,  #77b7ef 0%,#000000 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77b7ef', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                background-size: 160% 160%;
+                background-position: center -160px;
+            }
+
+            .panel h1{
+                margin-top: 0px;
+            }
+
+            .panel h1, .panel p, .panel a{
+                color: #fff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="panel">
+            <h1>Intro</h1>
+            <p>Cras mattis consectetur purus sit amet fermentum.</p>
+            <p><a href="#">read more</a></p>
+        </div>
+    </body>
+</html>
